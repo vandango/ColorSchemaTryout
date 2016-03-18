@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>@ViewBag.Title - Color schema</title>
+<link href="~/css/page.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="page">
+	<div class="header">
+		<h1>Kuler Color Schema</h1>
+	</div>
+	
+	<div class="menu">
+		<ul>
+			<li>Start</li>
+			<li>Link</li>
+		</ul>
+	</div>
+	
+	<div class="sidebar">
+		<h3>Sidebar</h3>
+		
+		<p>
+		Some information...
+		</p>
+		
+		<p>
+		Some activities...
+		</p>
+	</div>
+	
+	<div class="content">
+		<h3>Content</h3>
+		@RenderBody()
+	</div>
+</div>
+
+<div id="footer">
+	<div>Copyright &copy; 2016 Blubberlutsch GmbH</div>
+</div>
+
+</body>
+
+</html>
