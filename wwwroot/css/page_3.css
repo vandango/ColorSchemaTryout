@@ -1,0 +1,137 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 1.0em;
+    font-style: normal;
+    font-family:"Century Gothic", "Avantgarde", arial, sans-serif;
+    line-height: 20px;
+    color: #666;
+}
+
+body {
+	background: #fafafa;
+}
+
+/*
+
+Grey       : #464852
+Light Blue : #7C87E0
+Light Mint : #FCFCFC
+Sand       : #FFDE82
+Orange     : #F7900B
+
+*/
+
+div#footer {
+	position: absolute;
+	bottom: 0px;
+	background-color: #464852;
+	width: 100%;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+	div#footer div {
+		color: #fff;
+		font-size: 11px;
+		padding: 10px 10px 10px 20px;
+	}
+
+div#page {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    overflow: hidden !important;
+    position: relative;
+}
+
+div#page .header {
+	height: 63px;
+	padding: 10px 30px 10px 30px;
+	margin: 0;
+	background-color: #fff;
+	border-top: #F7900B 5px solid;
+}
+
+div#page .menu {
+	height: 30px;
+	padding: 0;
+	margin: 0; 
+	background-color: #7C87E0;
+}
+
+	div#page .menu ul {
+		margin: 0;
+		padding: 0 4px 0 4px;
+		list-style: none;
+	}
+	
+		div#page .menu ul li {
+			float: left;
+			font-weight: bold;
+			padding: 5px 10px 4px 10px;
+			color: #fff;
+		}
+		
+		div#page .menu ul li:hover {
+			background-color: #464852;
+		}
+
+	div#page .menu ul:after {
+		clear: both;
+	}
+
+div#page .sidebar {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 200px;
+	
+	margin: 0;
+	padding: 0;
+	
+    display: block;
+    position: absolute;
+    float: left;
+	
+    border-right: 2px dashed #ececec;
+}
+
+	div#page .sidebar h3 {
+		color: #333;
+		padding: 7px;
+		margin: 0 0 15px 0; 
+		background-color: #FFDE82;
+		border-right: 2px solid #7C87E0;
+		border-bottom: 2px solid #7C87E0;
+		border-bottom-right-radius: 7px;
+	}
+
+	div#page .sidebar p {
+		font-size: 12px;
+		color: #222;
+		padding: 10px;
+		margin: 5px 5px 15px 5px;
+		background-color: #fff;
+		border: 1px solid #7C87E0;
+		border-radius: 2px;
+	}
+
+div#page .content {
+    min-height: 100%;
+    height: 100%;
+    
+	margin: 0 0 0 221px;
+    
+	display: block;
+    position: relative;
+	
+	padding: 10px;
+}
+
+	div#page .content h3 {
+		color: #333;
+		margin: 7px 0 5px 0;
+	}
